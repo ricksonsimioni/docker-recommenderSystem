@@ -17,7 +17,8 @@ This environment is designed for maximum simplicity. On the first launch, the co
 Create a single, empty folder on your computer. This folder will store your project files and the container's persistent settings. Then, navigate into it.
 
 ```bash
-mkdir my-recommender-project && cd my-recommender-project
+mkdir ~/Desktop/my-recommender-project
+cd ~/Desktop/my-recommender-project
 ```
 
 ### **2. Run the Development Environment**
