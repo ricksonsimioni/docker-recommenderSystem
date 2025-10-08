@@ -12,12 +12,12 @@ This project is a generic recommender system developed using Epsilon and Java. I
 ### **1. Clone the Repository**
 First, clone this project's source code to your local machine.
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone [https://github.com/ricksonsimioni/docker-recommenderSystem.git](https://github.com/ricksonsimioni/docker-recommenderSystem.git)
 ```
 
 ### **2. Navigate into the Directory**
 ```bash
-cd your-repo-name
+cd docker-recommenderSystem
 ```
 
 ### **3. Run the Development Environment**
