@@ -65,6 +65,20 @@ Name it as ```eclipse``` in the field ```Name```, and lastly, in the field ```Co
 
 Click in ***Create*** and execute the launcher. The project will be located in the `/data/project` directory inside the container's file explorer.
 
+In case ***LibRec** is not installed, open the terminal and execute the following command:
+
+```
+mvn install:install-file \
+    -Dfile=/data/project/genericRecommenderSystem-FocusGroup/librec-core-3.0.0.jar \
+    -DgroupId=net.librec \
+    -DartifactId=librec-core \
+    -Dversion=3.0.0 \
+    -Dpackaging=jar
+```
+
+In case Eclipse points out an error similar to _Downloading external resources is disabled_, follow these steps:
+Go to the top bar: Window -> Preference -> Maven -> tick the option ***Download Artifact Javadoc***.
+
 -----
 
 ## How to Stop and Start
