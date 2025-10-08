@@ -1,0 +1,107 @@
+@namespace(uri="http://org.rs.domain", prefix="org.elver.music")
+package music;
+
+import "http://org.rs";
+
+@"elver.org/displayLabel"(value="${firstName} ${lastName}")
+@"elver.org/naturalOrdering"(value="lastName,firstName")
+@"elver.org/displayAttributes"(value="lastName,firstName")
+class Artist {
+
+	@teneo.jpa(value="@Id @GeneratedValue")
+	id attr long ~id;
+
+	@teneo.jpa(value="@Version")
+	attr Long version;
+	attr String firstName;
+
+	@"elver.org/searchable"(value="true")
+	attr String lastName;
+	attr EDate birthDate;
+	ref Country country;
+	ref Genre genre;
+}
+
+@"elver.org/displayLabel"(value="${name}")
+@"elver.org/naturalOrdering"(value="name")
+class Album {
+
+	@teneo.jpa(value="@Id @GeneratedValue")
+	id attr long ~id;
+
+	@teneo.jpa(value="@Version")
+	attr Long version;
+	attr String name;
+	ref Artist artist;
+	attr EDate releaseDate;
+
+	@teneo.jpa(value="@ManyToMany")
+	ref Genre[*] genres;
+
+	@teneo.jpa(value="@OneToMany")
+	ref Song[*] songs;
+	!unique attr Rating[*] ratings;
+}
+
+@"elver.org/displayLabel"(value="${name}")
+@"elver.org/naturalOrdering"(value="name")
+class Country {
+
+	@teneo.jpa(value="@Id")
+	@"elver.org/maxLength"(value="2")
+	@"elver.org/searchable"(value="no")
+	id attr String[1] code;
+
+	@teneo.jpa(value="@Version")
+	attr Long version;
+
+	@"elver.org/displayLength"(value="40")
+	attr String name;
+}
+
+@"elver.org/displayLabel"(value="${name}")
+@"elver.org/naturalOrdering"(value="name")
+class Genre {
+
+	@teneo.jpa(value="@Id @GeneratedValue")
+	id attr long ~id;
+
+	@teneo.jpa(value="@Version")
+	attr Long version;
+	attr String[1] name;
+}
+
+enum Rating {
+	LOW = 0;
+	HIGH = 1;
+}
+
+class Song extends rs.Item {
+
+	@teneo.jpa(value="@Id @GeneratedValue")
+	id attr long ~id;
+
+	@teneo.jpa(value="@Version")
+	attr Long version;
+
+	@"elver.org/maxLength"(value="2")
+	attr int track;
+
+	@"elver.org/maxLength"(value="40")
+	attr String name;
+}
+
+class Listener extends rs.User {
+
+
+}
+
+class MusicLibrary {
+	attr String[1] name = "";
+    val Artist[*] artists;
+    val Album[*] albums;
+    val Listener[*] listeners;
+    val Genre[*] genres;
+    val Country[*] countries;
+}
+

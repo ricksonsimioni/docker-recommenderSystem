@@ -1,0 +1,24 @@
+@namespace(uri="http://org.rs.domain", prefix="BOOKS")
+package BOOKS;
+
+import "http://org.rs";
+
+class Chapter {
+	attr String[1] title = "";
+	attr int[1] nbPages;
+}
+
+class Book extends rs.Item {
+	val Chapter[*] chapters;
+	attr String[1] title = "";
+}
+
+class Reader extends rs.User {
+	
+}
+
+class Library {
+	attr String[1] name = "";
+    val Book[*] books;
+    val Reader[*] readers;
+}

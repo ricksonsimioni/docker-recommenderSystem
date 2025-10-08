@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.rs:Algorithm xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:movies="http://movies/1.0" xmlns:org.rs="http://org.rs">
+  <filteringRS xsi:type="org.rs:CollaborativeFiltering" _name="MoviesCF">
+    <data>
+      <rows value="4.0">
+        <_user href="Models_Examples/Movies.model#viewer_001"/>
+        <_item xsi:type="movies:Movie" href="Models_Examples/Movies.model#movie_inception"/>
+      </rows>
+      <rows value="5.0">
+        <_user href="Models_Examples/Movies.model#viewer_001"/>
+        <_item xsi:type="movies:Movie" href="Models_Examples/Movies.model#movie_matrix"/>
+      </rows>
+      <rows value="3.0">
+        <_user href="Models_Examples/Movies.model#viewer_001"/>
+        <_item xsi:type="movies:Movie" href="Models_Examples/Movies.model#movie_godfather"/>
+      </rows>
+      <rows value="5.0">
+        <_user href="Models_Examples/Movies.model#viewer_001"/>
+        <_item xsi:type="movies:Movie" href="Models_Examples/Movies.model#movie_pulp_fiction"/>
+      </rows>
+
+      <rows value="5.0">
+        <_user href="Models_Examples/Movies.model#viewer_002"/>
+        <_item xsi:type="movies:Movie" href="Models_Examples/Movies.model#movie_inception"/>
+      </rows>
+      <rows value="4.0">
+        <_user href="Models_Examples/Movies.model#viewer_002"/>
+        <_item xsi:type="movies:Movie" href="Models_Examples/Movies.model#movie_matrix"/>
+      </rows>
+      <rows value="5.0">
+        <_user href="Models_Examples/Movies.model#viewer_002"/>
+        <_item xsi:type="movies:Movie" href="Models_Examples/Movies.model#movie_pulp_fiction"/>
+      </rows>
+      <rows value="4.0">
+        <_user href="Models_Examples/Movies.model#viewer_002"/>
+        <_item xsi:type="movies:Movie" href="Models_Examples/Movies.model#movie_dark_knight"/>
+      </rows>
+
+      <rows value="2.0">
+        <_user href="Models_Examples/Movies.model#viewer_003"/>
+        <_item xsi:type="movies:Movie" href="Models_Examples/Movies.model#movie_matrix"/>
+      </rows>
+      <rows value="5.0">
+        <_user href="Models_Examples/Movies.model#viewer_003"/>
+        <_item xsi:type="movies:Movie" href="Models_Examples/Movies.model#movie_godfather"/>
+      </rows>
+      <rows value="5.0">
+        <_user href="Models_Examples/Movies.model#viewer_003"/>
+        <_item xsi:type="movies:Movie" href="Models_Examples/Movies.model#movie_dark_knight"/>
+      </rows>
+    </data>
+  </filteringRS>
+</org.rs:Algorithm>

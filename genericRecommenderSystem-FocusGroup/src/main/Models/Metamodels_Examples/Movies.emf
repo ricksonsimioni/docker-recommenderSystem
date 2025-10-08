@@ -1,0 +1,57 @@
+@namespace(uri="http://movies/1.0", prefix="movies")
+package movies;
+
+import "http://org.rs";
+
+abstract class Person extends rs.User {
+	ref Movie[*]#persons movies;
+	attr String name;
+}
+
+class Viewer extends Person {
+	
+}
+
+class Actor extends Person {
+}
+
+class Actress extends Person {
+}
+
+class Director extends Person {
+}
+
+class Couple extends Group {
+	ref Person p1;
+	ref Person p2;
+}
+
+class Movie extends rs.Item{
+	ref Person[*]#movies persons;
+	attr String name;
+	attr int year;
+	attr MovieType type;
+}
+
+enum MovieType {
+	MOVIE = 0;
+	VIDEO = 1;
+	TV = 2;
+	VIDEOGAME = 3;
+}
+
+abstract class Group {
+	ref Movie[*] commonMovies;
+	attr double avgRating;
+}
+
+class Clique extends Group {
+	ref Person[*] persons;
+}
+
+class MovieDatabase {
+	attr String[1] name = "";
+    val Movie[*] movies;
+    val Viewer[*] persons;
+    val Group[*] groups;
+}

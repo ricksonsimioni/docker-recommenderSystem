@@ -1,0 +1,56 @@
+@namespace(uri="http://org.rs.domain", prefix="domain")
+package domain;
+
+import "http://org.rs";
+
+class ArchiModelDataset {
+	attr String name;
+	val SoftwareEngineer[*] engineers;
+	val ArchimateModelItem[*] models;
+	val Category[*] categories;
+}
+
+class SoftwareEngineer extends rs.User {
+	attr String name;
+	val EngineerProfile[1] profile;
+	val EngineerPreference[1] preference;
+}
+
+class EngineerProfile extends rs.Profile {
+	attr int experienceYears;
+	attr DomainRole role;
+}
+
+class EngineerPreference extends rs.Preference {
+	val Category[*] preferredComponents;
+	attr int preferredComplexity;
+}
+
+class ArchimateModelItem extends rs.Item {
+	attr String filePath;
+	attr String name;
+	attr int complexity;
+	val Component[*] components;
+	ref Category category;
+	attr float cohesion;
+	attr float coupling;
+	attr float modularity;
+}
+
+class Component {
+	attr String name;
+}
+
+class Category extends rs.Preference {
+	id attr String categoryId;
+	attr String label;
+}
+
+enum DomainRole {
+	FRONTEND = 0;
+	BACKEND = 1;
+	FULLSTACK = 2;
+	ENTERPRISE_ARCHITECT = 3;
+	DEVOPS = 4;
+}
+

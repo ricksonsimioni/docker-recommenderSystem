@@ -1,0 +1,5 @@
+/target/
+# Maven /target/ /.m2/
+# Eclipse /.project /.classpath /.settings/ 
+# Log files *.log
+# OS generated files .DS_Store*

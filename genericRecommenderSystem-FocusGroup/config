@@ -1,0 +1,61 @@
+# ===============================================================
+#  Epsilon Scripts
+# ===============================================================
+# Note: The bootstrap process now uses an .eol file
+eol.bootstrap.script=/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemModel/src/main/resources/bootstrap.eol
+eol.rating.script=/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemModel/src/main/resources/eol/generate_ratings.eol
+
+
+# ===============================================================
+#  Metamodel URIs (Used by Epsilon)
+# ===============================================================
+ecore.archimate.uri=http://www.archimatetool.com/archimate
+ecore.recommender.uri=http://org.rs
+ecore.domain.uri=http://org.rs.domain
+
+
+# ===============================================================
+#  Metamodel File Paths (Used by Java to load them)
+# ===============================================================
+ecore.recommender=/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemModel/src/main/Models/recommendersystemGeneric.ecore
+ecore.domain=/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemModel/src/main/Models/domain.ecore
+ecore.archimate.path=/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemModel/src/main/Models/archimate.ecore
+
+
+# ===============================================================
+#  Model File Paths (Inputs)
+# ===============================================================
+# Directory containing all the source .archimate models
+archimate.models.dir=/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemModel/src/main/Models/archimate-github/data
+# Old domain model containing user data, still used by Main.java
+model.domain=/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemModel/src/main/Models/archimateDataset.model
+
+
+# ===============================================================
+#  Generated Output Files
+# ===============================================================
+# Output for the recommender logic model
+model.recommender.instance=/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemModel/generated-models/recommender_instance.model
+# Output for the item catalog model
+model.domain.output=/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemModel/generated-models/domain.model
+# Temp directory for LibRec
+output.tmp=/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemModel/data/tmp
+
+
+# ===============================================================
+#  LibRec Parameters
+# ===============================================================
+rec.similarity.key=item
+rec.isranking=true
+rec.similarity.shrinkage=10
+rec.knn=200
+
+
+#Recommender System Configuration
+#Wed Sep 03 14:19:10 CEST 2025
+rec.isranking=true
+rec.similarity.key=item
+rec.similarity.shrinkage=10
+ecore.recommender=/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemModel/src/main/Models/domain.ecore
+output.tmp=/Users/ricksonsimionipereira/eclipse-workspace/Conferences/RecommenderSystem/genericRecommenderSystemPark
+rec.knn=60

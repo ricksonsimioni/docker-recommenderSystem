@@ -1,0 +1,20 @@
+# Model paths
+ecore.recommender=src/main/Models/recommendersystemGeneric.ecore
+ecore.domain=src/main/Models/domain.ecore
+model.recommender=src/main/Models/recommendersystemGeneric.model
+model.domain=src/main/Models/archimateDataset.model
+eol.script=src/main/Models/EOL_scripts/dataExtraction.eol
+
+ecore.archimate.path=src/main/Models/archimate.ecore
+
+
+# Output directories
+output.tmp=data/tmp
+output.csv=recommendations.csv
+output.xml=recommendations.xml
+
+# LibRec params
+rec.similarity.key=item
+rec.isranking=true
+rec.similarity.shrinkage=10
+rec.knn=200

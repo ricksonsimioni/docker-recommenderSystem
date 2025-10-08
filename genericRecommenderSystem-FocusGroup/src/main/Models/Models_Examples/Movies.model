@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies:MovieDatabase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:movies="http://movies/1.0" xmi:id="_-7HxwJ9tEfCA86NZPAt90A">
+  <movies xmi:id="movie_titanic" itemId="tt0120338" persons="actor_leo actor_kate director_cameron" name="Titanic" year="1997"/>
+  <movies xmi:id="movie_inception" itemId="tt1375666" persons="actor_leo director_nolan" name="Inception" year="2010"/>
+  <movies xmi:id="movie_godfather" itemId="tt0068646" persons="actor_pacino actor_brando director_coppola" name="The Godfather" year="1972"/>
+  <movies xmi:id="movie_matrix" itemId="tt0133093" persons="actor_keanu actor_carrie director_wachowskis" name="The Matrix" year="1999"/>
+  <movies xmi:id="movie_pulp_fiction" itemId="tt0110912" persons="actor_travolta actor_samuel_l director_tarantino" name="Pulp Fiction" year="1994"/>
+  <movies xmi:id="movie_forrest_gump" itemId="tt0109830" persons="actor_hanks director_zemeckis" name="Forrest Gump" year="1994"/>
+  <movies xmi:id="movie_shawshank" itemId="tt0111161" persons="actor_robbins actor_freeman director_darabont" name="The Shawshank Redemption" year="1994"/>
+  <movies xmi:id="movie_dark_knight" itemId="tt0468569" persons="actor_bale actor_ledger director_nolan" name="The Dark Knight" year="2008"/>
+  <movies xmi:id="movie_fight_club" itemId="tt0137523" persons="actor_pitt actor_norton director_fincher" name="Fight Club" year="1999"/>
+  <movies xmi:id="movie_goodfellas" itemId="tt0099685" persons="actor_deniro actor_liotta director_scorsese" name="Goodfellas" year="1990"/>
+  <movies xmi:id="movie_star_wars" itemId="tt0076759" persons="actor_hamill actor_ford actor_carrie director_lucas" name="Star Wars: Episode IV - A New Hope" year="1977"/>
+  <movies xmi:id="movie_lotr" itemId="tt0120737" persons="actor_wood actor_mckellen director_jackson" name="The Lord of the Rings: The Fellowship of the Ring" year="2001"/>
+  <movies xmi:id="movie_saving_ryan" itemId="tt0120815" persons="actor_hanks director_spielberg" name="Saving Private Ryan" year="1998"/>
+  <movies xmi:id="movie_alien" itemId="tt0078748" persons="actor_weaver director_scott" name="Alien" year="1979"/>
+  <movies xmi:id="movie_parasite" itemId="tt6751668" persons="director_bong" name="Parasite" year="2019"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_leo" movies="movie_titanic movie_inception" name="Leonardo DiCaprio"/>
+  <persons xsi:type="movies:Actress" xmi:id="actor_kate" movies="movie_titanic" name="Kate Winslet"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_pacino" movies="movie_godfather" name="Al Pacino"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_brando" movies="movie_godfather" name="Marlon Brando"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_keanu" movies="movie_matrix" name="Keanu Reeves"/>
+  <persons xsi:type="movies:Actress" xmi:id="actor_carrie" movies="movie_matrix movie_star_wars" name="Carrie-Anne Moss"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_travolta" movies="movie_pulp_fiction" name="John Travolta"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_samuel_l" movies="movie_pulp_fiction" name="Samuel L. Jackson"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_hanks" movies="movie_forrest_gump movie_saving_ryan" name="Tom Hanks"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_robbins" movies="movie_shawshank" name="Tim Robbins"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_freeman" movies="movie_shawshank" name="Morgan Freeman"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_bale" movies="movie_dark_knight" name="Christian Bale"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_ledger" movies="movie_dark_knight" name="Heath Ledger"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_pitt" movies="movie_fight_club" name="Brad Pitt"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_norton" movies="movie_fight_club" name="Edward Norton"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_deniro" movies="movie_goodfellas" name="Robert De Niro"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_liotta" movies="movie_goodfellas" name="Ray Liotta"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_hamill" movies="movie_star_wars" name="Mark Hamill"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_ford" movies="movie_star_wars" name="Harrison Ford"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_wood" movies="movie_lotr" name="Elijah Wood"/>
+  <persons xsi:type="movies:Actor" xmi:id="actor_mckellen" movies="movie_lotr" name="Ian McKellen"/>
+  <persons xsi:type="movies:Actress" xmi:id="actor_weaver" movies="movie_alien" name="Sigourney Weaver"/>
+  <persons xsi:type="movies:Director" xmi:id="director_cameron" movies="movie_titanic" name="James Cameron"/>
+  <persons xsi:type="movies:Director" xmi:id="director_nolan" movies="movie_inception movie_dark_knight" name="Christopher Nolan"/>
+  <persons xsi:type="movies:Director" xmi:id="director_coppola" movies="movie_godfather" name="Francis Ford Coppola"/>
+  <persons xsi:type="movies:Director" xmi:id="director_wachowskis" movies="movie_matrix" name="The Wachowskis"/>
+  <persons xsi:type="movies:Director" xmi:id="director_tarantino" movies="movie_pulp_fiction" name="Quentin Tarantino"/>
+  <persons xsi:type="movies:Director" xmi:id="director_zemeckis" movies="movie_forrest_gump" name="Robert Zemeckis"/>
+  <persons xsi:type="movies:Director" xmi:id="director_darabont" movies="movie_shawshank" name="Frank Darabont"/>
+  <persons xsi:type="movies:Director" xmi:id="director_fincher" movies="movie_fight_club" name="David Fincher"/>
+  <persons xsi:type="movies:Director" xmi:id="director_scorsese" movies="movie_goodfellas" name="Martin Scorsese"/>
+  <persons xsi:type="movies:Director" xmi:id="director_lucas" movies="movie_star_wars" name="George Lucas"/>
+  <persons xsi:type="movies:Director" xmi:id="director_jackson" movies="movie_lotr" name="Peter Jackson"/>
+  <persons xsi:type="movies:Director" xmi:id="director_spielberg" movies="movie_saving_ryan" name="Steven Spielberg"/>
+  <persons xsi:type="movies:Director" xmi:id="director_scott" movies="movie_alien" name="Ridley Scott"/>
+  <persons xsi:type="movies:Director" xmi:id="director_bong" movies="movie_parasite" name="Bong Joon Ho"/>
+  <persons xmi:id="viewer_001" userId="viewer1" name="Alice"/>
+  <persons xmi:id="viewer_002" userId="viewer2" name="Bob"/>
+  <persons xmi:id="viewer_003" userId="viewer3" name="John"/>
+  <persons xmi:id="viewer_004" userId="viewer4" name="Clark"/>
+  <persons xmi:id="viewer_005" userId="viewer5" name="Amanda"/>
+  <persons xmi:id="viewer_006" userId="viewer6" name="Martin"/>
+  <persons xmi:id="viewer_007" userId="viewer7" name="Meg"/>
+</movies:MovieDatabase>
