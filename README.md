@@ -17,7 +17,7 @@ git clone [https://github.com/ricksonsimioni/docker-recommenderSystem.git](https
 
 ### **2. Navigate into the Directory**
 ```bash
-cd docker-recommenderSystem
+cd docker-recommenderSystem/genericRecommenderSystem-FocusGroup/
 ```
 
 ### **3. Run the Development Environment**
