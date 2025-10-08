@@ -48,6 +48,12 @@ docker run -d \
 ```
 
 ### **4. Access the IDE**
-Open your web browser and go to **http://localhost:3000**. The Eclipse IDE will launch automatically with the project ready to go.
+Open your web browser and go to **http://localhost:3000**. Right-click in the Desktop, select ```Create Launcher```.
+Name it as ```eclipse``` in the field ```Name```, and lastly, in the field ```Command``` add the following command:
+```
+/opt/eclipse/eclipse -data /config/workspace/recommender-system
+```
+Click in ***Create***
+
 
 ---
