@@ -10,7 +10,7 @@ This environment is designed for maximum simplicity. On the first launch, the co
 
 ### **Prerequisites**
 
-  * [Docker Desktop](https://www.docker.com/products/docker-desktop/) must be installed and running.
+  * [Docker](https://docs.docker.com/get-started/get-docker/) must be installed and running.
 
 ### **1. Create Your Project Folder**
 
