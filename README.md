@@ -1,11 +1,3 @@
-Of course. I've adjusted your README to be clearer and to use the more advanced, automated setup we designed.
-
-This new version simplifies the process for the end-user significantly. Instead of cloning the code themselves and creating complex folder structures, they now only have to create one empty folder and run a single command. The container handles the rest.
-
------
-
-## Revised `README.md`
-
 # Generic Recommender System Project
 
 This project is a generic recommender system developed using Epsilon and Java. It runs inside a custom Docker container that provides a complete, web-accessible Eclipse IDE with all dependencies pre-installed.
