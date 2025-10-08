@@ -30,9 +30,9 @@ docker run -d \
   -p 3000:3000 \
   -e PUID=$(id -u) \
   -e PGID=$(id -g) \
-  -v "$(pwd)":/config/workspace/RecommenderSystem \
+  -v genericRecommenderSystem-FocusGroup:/config \
   --shm-size="2gb" \
-  ricksonsimioni/genericrecommendersystem-focusgroup:latest
+  ricksonsimioni/genericrs-focusgroup:1.0
 ```
 
 **On Windows (PowerShell):**
