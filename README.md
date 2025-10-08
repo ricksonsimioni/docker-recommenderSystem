@@ -42,9 +42,9 @@ docker run -d \
   -p 3000:3000 \
   -e PUID=1000 \
   -e PGID=1000 \
-  -v "${PWD}":/config/workspace/RecommenderSystem \
+  -v genericRecommenderSystem-FocusGroup:/config \
   --shm-size="2gb" \
-  ricksonsimioni/genericrecommendersystem-focusgroup:latest
+  ricksonsimioni/genericrs-focusgroup:1.0
 ```
 
 ### **4. Access the IDE**
