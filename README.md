@@ -77,7 +77,7 @@ mvn install:install-file \
     -Dpackaging=jar
 ```
 
-In case Eclipse points out an error similar to ```_Downloading external resources is disabled_```, follow these steps:
+In case Eclipse points out an error similar to ```Downloading external resources is disabled```, follow these steps:
 Go to the top bar: Window -> Preference -> Maven -> tick the option ***Download Artifact Javadoc***.
 
 -----
