@@ -17,8 +17,8 @@ This environment is designed for maximum simplicity. On the first launch, the co
 Create a single, empty folder on your computer. This folder will store your project files and the container's persistent settings. Then, navigate into it.
 
 ```bash
-mkdir ~/Desktop/my-recommender-project
-cd ~/Desktop/my-recommender-project
+mkdir ~/my-recommender-project
+cd ~/my-recommender-project
 ```
 
 ### **2. Run the Development Environment**
@@ -66,7 +66,7 @@ Name it as ```eclipse``` in the field ```Name```, and lastly, in the field ```Co
 
 Click in ***Create*** and execute the launcher. The project will be located in the `/data/project` directory inside the container's file explorer.
 
-In case ***LibRec** is not installed, open the terminal and execute the following command:
+In case ***LibRec*** is not installed, open the terminal and execute the following command:
 
 ```
 mvn install:install-file \
@@ -77,7 +77,7 @@ mvn install:install-file \
     -Dpackaging=jar
 ```
 
-In case Eclipse points out an error similar to _Downloading external resources is disabled_, follow these steps:
+In case Eclipse points out an error similar to ```_Downloading external resources is disabled_```, follow these steps:
 Go to the top bar: Window -> Preference -> Maven -> tick the option ***Download Artifact Javadoc***.
 
 -----
