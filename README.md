@@ -66,7 +66,7 @@ Name it as ```eclipse``` in the field ```Name```, and lastly, in the field ```Co
 
 Click in ***Create*** and execute the launcher. The project will be located in the `/data/project` directory inside the container's file explorer.
 
-In case ***LibRec*** is not installed, open the terminal and execute the following command:
+In case ***LibRec*** is not installed, open the terminal and execute the following command and then update your project:
 
 ```
 mvn install:install-file \
