@@ -41,14 +41,15 @@ docker run -d \
 **On Windows (PowerShell):**
 
 ```bash
-docker run -d \
-  --name=recommender-ide \
-  -p 3000:3000 \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -v "${PWD}":/data \
-  --shm-size="2gb" \
+docker run -d `
+  --name=recommender-ide `
+  -p 3000:3000 `
+  -e PUID=1000 `
+  -e PGID=1000 `
+  -v "${PWD}:/data" `
+  --shm-size="2gb" `
   ricksonsimioni/genericrs-focusgroup:latest
+
 ```
 
 The first time you run this, Docker will download the image from Docker Hub and then automatically clone the project source code into your folder.
