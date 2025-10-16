@@ -1,2 +1,108 @@
-<?xml version="1.0" encoding="ASCII"?>
-<org.elver.music:MusicLibrary xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.elver.music="http://www.eclipse.org/emf/texo/test/model/samples/music"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.elver.music:MusicLibrary xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.elver.music="http://org.rs.domain" name="Global Music Hub">
+  
+  <countries xmi:id="country_uk" code="UK" name="United Kingdom"/>
+  <countries xmi:id="country_us" code="US" name="United States"/>
+  <countries xmi:id="country_fr" code="FR" name="France"/>
+  <countries xmi:id="country_ca" code="CA" name="Canada"/>
+  <countries xmi:id="country_ie" code="IE" name="Ireland"/>
+
+  <genres xmi:id="genre_rock" name="Rock"/>
+  <genres xmi:id="genre_jazz" name="Jazz"/>
+  <genres xmi:id="genre_pop" name="Pop"/>
+  <genres xmi:id="genre_electronic" name="Electronic"/>
+  <genres xmi:id="genre_folk" name="Folk"/>
+  <genres xmi:id="genre_hiphop" name="Hip Hop"/>
+  <genres xmi:id="genre_blues" name="Blues"/>
+
+  <artists xmi:id="artist_pink_floyd" id="1" lastName="Pink Floyd" birthDate="1965-01-01" country="country_uk" genre="genre_rock"/>
+  <artists xmi:id="artist_daft_punk" id="2" lastName="Daft Punk" birthDate="1993-01-01" country="country_fr" genre="genre_electronic"/>
+  <artists xmi:id="artist_miles_davis" id="3" firstName="Miles" lastName="Davis" birthDate="1926-05-26" country="country_us" genre="genre_jazz"/>
+  <artists xmi:id="artist_queen" id="4" lastName="Queen" birthDate="1970-01-01" country="country_uk" genre="genre_rock"/>
+  <artists xmi:id="artist_beatles" id="5" lastName="The Beatles" birthDate="1960-01-01" country="country_uk" genre="genre_rock"/>
+  <artists xmi:id="artist_led_zep" id="6" lastName="Led Zeppelin" birthDate="1968-01-01" country="country_uk" genre="genre_rock"/>
+  <artists xmi:id="artist_mj" id="7" firstName="Michael" lastName="Jackson" birthDate="1958-08-29" country="country_us" genre="genre_pop"/>
+  <artists xmi:id="artist_dylan" id="8" firstName="Bob" lastName="Dylan" birthDate="1941-05-24" country="country_us" genre="genre_folk"/>
+  <artists xmi:id="artist_eminem" id="9" lastName="Eminem" birthDate="1972-10-17" country="country_us" genre="genre_hiphop"/>
+  <artists xmi:id="artist_kraftwerk" id="10" lastName="Kraftwerk" birthDate="1970-01-01" country="country_fr" genre="genre_electronic"/>
+  <artists xmi:id="artist_adele" id="11" firstName="Adele" lastName="" birthDate="1988-05-05" country="country_uk" genre="genre_pop"/>
+  <artists xmi:id="artist_u2" id="12" lastName="U2" birthDate="1976-01-01" country="country_ie" genre="genre_rock"/>
+  <artists xmi:id="artist_drake" id="13" lastName="Drake" birthDate="1986-10-24" country="country_ca" genre="genre_hiphop"/>
+  <artists xmi:id="artist_coltrane" id="14" firstName="John" lastName="Coltrane" birthDate="1926-09-23" country="country_us" genre="genre_jazz"/>
+  <artists xmi:id="artist_bbking" id="15" firstName="B.B." lastName="King" birthDate="1925-09-16" country="country_us" genre="genre_blues"/>
+  
+  <albums xmi:id="album_dsotm" name="The Dark Side of the Moon" artist="artist_pink_floyd" releaseDate="1973-03-01" genres="genre_rock" ratings="HIGH">
+    <songs track="1" name="Speak to Me"/>
+    <songs track="2" name="Breathe (In the Air)"/>
+  </albums>
+  <albums xmi:id="album_the_wall" name="The Wall" artist="artist_pink_floyd" releaseDate="1979-11-30" genres="genre_rock" ratings="HIGH">
+    <songs track="6" name="Another Brick in the Wall, Pt. 2"/>
+  </albums>
+  <albums xmi:id="album_discovery" name="Discovery" artist="artist_daft_punk" releaseDate="2001-03-12" genres="genre_electronic genre_pop" ratings="HIGH">
+    <songs track="1" name="One More Time"/>
+    <songs track="3" name="Digital Love"/>
+  </albums>
+  <albums xmi:id="album_ram" name="Random Access Memories" artist="artist_daft_punk" releaseDate="2013-05-17" genres="genre_electronic genre_pop">
+    <songs track="8" name="Get Lucky"/>
+  </albums>
+  <albums xmi:id="album_kind_of_blue" name="Kind of Blue" artist="artist_miles_davis" releaseDate="1959-08-17" genres="genre_jazz" ratings="HIGH">
+    <songs track="1" name="So What"/>
+  </albums>
+  <albums xmi:id="album_bohemian" name="A Night at the Opera" artist="artist_queen" releaseDate="1975-11-21" genres="genre_rock" ratings="HIGH">
+     <songs track="10" name="Bohemian Rhapsody"/>
+  </albums>
+  <albums xmi:id="album_abbey_road" name="Abbey Road" artist="artist_beatles" releaseDate="1969-09-26" genres="genre_rock" ratings="HIGH">
+    <songs track="1" name="Come Together"/>
+    <songs track="2" name="Something"/>
+  </albums>
+  <albums xmi:id="album_led_zep_iv" name="Led Zeppelin IV" artist="artist_led_zep" releaseDate="1971-11-08" genres="genre_rock" ratings="HIGH">
+    <songs track="1" name="Black Dog"/>
+    <songs track="4" name="Stairway to Heaven"/>
+  </albums>
+  <albums xmi:id="album_thriller" name="Thriller" artist="artist_mj" releaseDate="1982-11-30" genres="genre_pop" ratings="HIGH">
+    <songs track="1" name="Wanna Be Startin' Somethin'"/>
+    <songs track="4" name="Thriller"/>
+  </albums>
+  <albums xmi:id="album_highway_61" name="Highway 61 Revisited" artist="artist_dylan" releaseDate="1965-08-30" genres="genre_folk genre_rock" ratings="HIGH">
+    <songs track="1" name="Like a Rolling Stone"/>
+  </albums>
+  <albums xmi:id="album_slim_shady" name="The Marshall Mathers LP" artist="artist_eminem" releaseDate="2000-05-23" genres="genre_hiphop" ratings="HIGH">
+    <songs track="7" name="The Real Slim Shady"/>
+  </albums>
+  <albums xmi:id="album_21" name="21" artist="artist_adele" releaseDate="2011-01-24" genres="genre_pop" ratings="HIGH">
+    <songs track="2" name="Rolling in the Deep"/>
+  </albums>
+  <albums xmi:id="album_joshua_tree" name="The Joshua Tree" artist="artist_u2" releaseDate="1987-03-09" genres="genre_rock" ratings="HIGH">
+    <songs track="1" name="Where the Streets Have No Name"/>
+  </albums>
+  <albums xmi:id="album_scorpion" name="Scorpion" artist="artist_drake" releaseDate="2018-06-29" genres="genre_hiphop">
+    <songs track="6" name="God's Plan"/>
+  </albums>
+  <albums xmi:id="album_love_supreme" name="A Love Supreme" artist="artist_coltrane" releaseDate="1965-02-01" genres="genre_jazz" ratings="HIGH">
+    <songs track="1" name="Part I: Acknowledgement"/>
+  </albums>
+  <albums xmi:id="album_live_at_regal" name="Live at the Regal" artist="artist_bbking" releaseDate="1965-11-01" genres="genre_blues" ratings="HIGH">
+    <songs track="1" name="Every Day I Have the Blues"/>
+  </albums>
+
+  <listeners xmi:id="listener_001" userId="user1"/>
+  <listeners xmi:id="listener_002" userId="user2"/>
+  <listeners xmi:id="listener_003" userId="user3"/>
+  <listeners xmi:id="listener_004" userId="user4"/>
+  <listeners xmi:id="listener_005" userId="user5"/>
+  <listeners xmi:id="listener_006" userId="user6"/>
+  <listeners xmi:id="listener_007" userId="user7"/>
+  <listeners xmi:id="listener_008" userId="user8"/>
+  <listeners xmi:id="listener_009" userId="user9"/>
+  <listeners xmi:id="listener_010" userId="user10"/>
+  <listeners xmi:id="listener_011" userId="user11"/>
+  <listeners xmi:id="listener_012" userId="user12"/>
+  <listeners xmi:id="listener_013" userId="user13"/>
+  <listeners xmi:id="listener_014" userId="user14"/>
+  <listeners xmi:id="listener_015" userId="user15"/>
+  <listeners xmi:id="listener_016" userId="user16"/>
+  <listeners xmi:id="listener_017" userId="user17"/>
+  <listeners xmi:id="listener_018" userId="user18"/>
+  <listeners xmi:id="listener_019" userId="user19"/>
+  <listeners xmi:id="listener_020" userId="user20"/>
+</org.elver.music:MusicLibrary>
