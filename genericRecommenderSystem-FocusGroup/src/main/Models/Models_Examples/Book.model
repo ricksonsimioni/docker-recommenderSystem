@@ -1,2 +1,99 @@
-<?xml version="1.0" encoding="ASCII"?>
-<BOOKS:Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:BOOKS="http:///BOOKS.ecore"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<BOOKS:Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:BOOKS="http://org.rs.domain" name="World Public Library">
+  <books title="The Hobbit" itemId="book1">
+    <chapters title="An Unexpected Party" nbPages="32"/>
+    <chapters title="Roast Mutton" nbPages="25"/>
+    <chapters title="A Short Rest" nbPages="20"/>
+    <chapters title="Over Hill and Under Hill" nbPages="35"/>
+  </books>
+  <books title="Dune" itemId="book2">
+    <chapters title="Part I: Dune" nbPages="150"/>
+    <chapters title="Part II: Muad'Dib" nbPages="180"/>
+    <chapters title="Part III: The Prophet" nbPages="165"/>
+  </books>
+  <books title="1984" itemId="book3">
+    <chapters title="Part One" nbPages="105"/>
+    <chapters title="Part Two" nbPages="125"/>
+    <chapters title="Part Three" nbPages="80"/>
+  </books>
+  <books title="The Lord of the Rings: The Fellowship of the Ring" itemId="book4">
+    <chapters title="A Long-expected Party" nbPages="28"/>
+    <chapters title="The Shadow of the Past" nbPages="30"/>
+    <chapters title="Three is Company" nbPages="25"/>
+  </books>
+  <books title="Pride and Prejudice" itemId="book5">
+    <chapters title="Chapter 1" nbPages="8"/>
+    <chapters title="Chapter 2" nbPages="7"/>
+    <chapters title="Chapter 3" nbPages="10"/>
+  </books>
+  <books title="To Kill a Mockingbird" itemId="book5">
+    <chapters title="Part One, Chapter 1" nbPages="15"/>
+    <chapters title="Part One, Chapter 2" nbPages="12"/>
+    <chapters title="Part Two, Chapter 12" nbPages="20"/>
+  </books>
+  <books title="The Great Gatsby" itemId="book6">
+    <chapters title="Chapter I" nbPages="20"/>
+    <chapters title="Chapter II" nbPages="22"/>
+    <chapters title="Chapter III" nbPages="25"/>
+  </books>
+  <books title="Harry Potter and the Sorcerer's Stone" itemId="book7">
+    <chapters title="The Boy Who Lived" nbPages="17"/>
+    <chapters title="The Vanishing Glass" nbPages="14"/>
+    <chapters title="The Letters from No One" nbPages="20"/>
+  </books>
+  <books title="A Song of Ice and Fire: A Game of Thrones" itemId="book8">
+    <chapters title="Prologue" nbPages="12"/>
+    <chapters title="Bran I" nbPages="15"/>
+    <chapters title="Catelyn I" nbPages="14"/>
+    <chapters title="Daenerys I" nbPages="16"/>
+  </books>
+  <books title="Fahrenheit 451" itemId="book9">
+    <chapters title="Part 1: The Hearth and the Salamander" nbPages="68"/>
+    <chapters title="Part 2: The Sieve and the Sand" nbPages="55"/>
+  </books>
+  <books title="Brave New World" itemId="book10">
+    <chapters title="Chapter One" nbPages="20"/>
+    <chapters title="Chapter Two" nbPages="18"/>
+    <chapters title="Chapter Three" nbPages="25"/>
+  </books>
+  <books title="The Hitchhiker's Guide to the Galaxy" itemId="book11">
+    <chapters title="Chapter 1" nbPages="5"/>
+    <chapters title="Chapter 2" nbPages="6"/>
+    <chapters title="Chapter 3" nbPages="8"/>
+  </books>
+  <books title="The Catcher in the Rye" itemId="book12">
+    <chapters title="Chapter 1" nbPages="10"/>
+    <chapters title="Chapter 2" nbPages="12"/>
+  </books>
+  <books title="Moby Dick" itemId="book13">
+    <chapters title="Loomings" nbPages="15"/>
+    <chapters title="The Carpet-Bag" nbPages="10"/>
+    <chapters title="The Spouter-Inn" nbPages="20"/>
+  </books>
+  <books title="Frankenstein" itemId="book14">
+    <chapters title="Letter 1" nbPages="5"/>
+    <chapters title="Chapter 1" nbPages="10"/>
+    <chapters title="Chapter 2" nbPages="12"/>
+  </books>
+
+  <readers xmi:id="reader_001" userId="user1"/>
+  <readers xmi:id="reader_002" userId="user2"/>
+  <readers xmi:id="reader_003" userId="user3"/>
+  <readers xmi:id="reader_004" userId="user4"/>
+  <readers xmi:id="reader_005" userId="user5"/>
+  <readers xmi:id="reader_006" userId="user6"/>
+  <readers xmi:id="reader_007" userId="user7"/>
+  <readers xmi:id="reader_008" userId="user8"/>
+  <readers xmi:id="reader_009" userId="user9"/>
+  <readers xmi:id="reader_010" userId="user10"/>
+  <readers xmi:id="reader_011" userId="user11"/>
+  <readers xmi:id="reader_012" userId="user12"/>
+  <readers xmi:id="reader_013" userId="user13"/>
+  <readers xmi:id="reader_014" userId="user14"/>
+  <readers xmi:id="reader_015" userId="user15"/>
+  <readers xmi:id="reader_016" userId="user16"/>
+  <readers xmi:id="reader_017" userId="user17"/>
+  <readers xmi:id="reader_018" userId="user18"/>
+  <readers xmi:id="reader_019" userId="user19"/>
+  <readers xmi:id="reader_020" userId="user20"/>
+</BOOKS:Library>
